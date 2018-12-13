@@ -1,8 +1,7 @@
 # LandP
 Techdegree Project 2
 
-- Create and append the pagination links
-- Break stundentlist down into pages 
+- Break stundentlist down into pages: create and append the pagination links
 - Hide all but the first 10 students when the page loads
 - When a user clicks on “2” in the pagination, students 11 through 20 are shown. When a user clicks “3”, students 21 through 30 are shown. And so on.
 
