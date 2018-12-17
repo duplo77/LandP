@@ -79,3 +79,24 @@ showPage(1, eachStudent);
 
 // run appendPageLinks
 appendPageLinks(eachStudent);
+
+//Extra Credits:
+
+// search bar, search input, search button
+const searchBar = document.createElement('div');
+searchBar.className = 'student-search';
+
+const searchBarInput = document.createElement('input');
+searchBarInput.type = 'text';
+searchBarInput.placeholder = "Search for students...";
+
+const searchBarButton = document.createElement('button');
+searchBarButton.textContent = "Search";
+
+searchBar.appendChild(searchBarInput);
+searchBar.appendChild(searchBarButton);
+
+document.querySelector('.page-header').appendChild(searchBar);
+
+
+// searchFunction
